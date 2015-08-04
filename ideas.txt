@@ -1,0 +1,31 @@
+
+ Stache Generator
+
+
+Assets
+- Gallery of cohort 7
+- SVG moustaches
+
+
+Logic
+- Answer a set of random questions to pick out a moustache 
+	- ie do you prefer red or green?  cats or dogs? left or right? would you live in a lavish condo in the city or in solitude
+	- add & subtract to a neutral value (3 for 1-5 or 5 for 1-10) to determine your personality
+	- each personality assigned a moustache
+
+
+Problems
+- each picture stored in object with co-ordinates for upperlip and top of head
+
+
+Ideas
+- song to go with moustache
+- tophat/monocle/bowtie
+- upload picture?
+
+Flow
+
+1. click image in gallery to appear in display
+2. answer questions and press SUBMIT
+3. 
+

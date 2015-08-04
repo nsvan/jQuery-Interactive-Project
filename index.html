@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+	<link rel="icon" href="assets/icon.png" type="image/x-icon">
+	<!-- apple icons -->
+	<link rel="apple-touch-icon" href="assets/icon.png" />
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!-- google fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,600,700|Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- jQuery UI -->
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<!-- flickity styles -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.min.css">
+	<!-- custom styles -->
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Stache Generator</title>
+</head>
+
+<!--BODY 
+==============================================
+============================================-->
+<body>
+	<main>
+		<section class="site-wrapper">
+			
+			<header>
+				<div class="header-wrapper">
+					<h1>What's your 'stache?</h1>
+				</div><!--header-wrapper-->
+			</header>
+
+			<!--QUESTIONS 
+			==============================================
+			============================================-->
+			<section class="interaction">
+				<section class="questions">
+					<div class="questions-wrapper">
+
+						<form action="#">
+							<ul class="questions-form">
+								<li>
+									<p class="question-text">Do you like cats or dogs?</p>
+									<p>Cats <input type="radio" name="question1" value="negative">
+									Dogs <input type="radio" name="question1" value="positive"></p>
+								</li>
+								<li>
+									<p class="question-text">Do you like money?</p>
+									<p>Duh <input type="radio" name="question2" value="negative">
+									No <input type="radio" name="question2" value="positive"></p>
+								</li>
+								<li>
+									<p class="question-text">Do you want to take over the world?</p>
+									<p>Yes <input type="radio" name="question3" value="negative"> 
+									No <input type="radio" name="question3" value="positive"></p>
+								</li>
+								<li>
+									<p class="question-text">Do you like to troll the interwebz?</p>
+									<p>Hell yea <input type="radio" name="question4" value="negative">
+									No <input type="radio" name="question4" value="positive"></p>
+								</li>
+								<li>
+									<p class="question-text">Are you a fighter or lover?</p>
+									<p>Fighter <input type="radio" name="question5" value="negative">
+									Lover <input type="radio" name="question5" value="positive"></p>
+								</li>
+								<li>
+									<p class="question-text">The pen is mightier than the sword</p>
+									<p>Disagree <input type="radio" name="question6" value="negative">
+									Agree <input type="radio" name="question6" value="positive"></p>
+								</li>
+							</ul>
+							<input class="button" type="submit" value="Submit" />
+							<a href="#"><span class="button reset">RESET</span></a>
+						</form><!--end of form-->
+						
+					</div><!--questions-wrapper-->
+				</section><!--questions-->
+
+				<!--RESULTS 
+				==============================================
+				============================================-->
+				<section class="results">
+					<div class="results-wrapper">
+						<h2 class="resultsH2">Lorem ipsum dolor.</h2>
+						<img class="resultsImg" src="assets/gallery20.jpg" alt="resultsImage">
+						<p class="resultsDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus corrupti incidunt, expedita accusamus atque voluptas, ratione consectetur alias quod deleniti.</p>
+						<a href="#"><span class="button reset">RESET</span></a>
+
+					</div><!--results-wrapper-->
+				</section><!--results-->
+			</section><!--interaction -->
+			
+			<!--DISPLAY 
+			==============================================
+			============================================-->
+			<section class="display">
+				<div class="display-wrapper">
+
+			 		<div class="moustache-wrapper"> 
+						<img class = "moustache-actual" src="assets/moustache1.png" alt="moustache">
+					</div>
+
+					<!-- moustache-wrapper--> 
+					<div class="gallery gallery-main js-flickity" data-flickity-options='{"pageDots": false, "prevNextButtons": false, "imagesLoaded": true, "wrapAround": true}'>
+
+						<!-- <img src="assets/gallery1.jpg" alt=""> -->
+							<div class="gallery-cell">
+								<img src="assets/empty.png" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery1.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery2.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery3.jpg" alt="">
+							</div>
+							<div class="gallery-cell">	
+								<img src="assets/gallery4.jpg" alt="">
+							</div>
+							<div class="gallery-cell">	
+								<img src="assets/gallery5.jpg" alt="">
+							</div>
+							<div class="gallery-cell">	
+								<img src="assets/gallery6.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery7.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery8.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery9.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery10.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery11.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery12.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery13.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery14.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery15.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery16.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery17.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery18.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery19.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery20.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery21.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery22.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery23.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery24.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery25.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery26.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery27.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery28.jpg" alt="">
+							</div>
+							<div class="gallery-cell">
+								<img src="assets/gallery29.jpg" alt="">
+							</div>
+					</div><!-- gallery -->
+				</div><!--main-display-wrapper-->
+			</section><!-- main-display -->
+
+			<!--GALLERY 
+			==============================================
+			============================================-->
+			<section class="bottom gallery">
+				<div class="gallery-wrapper">
+					<div class="gallery gallery-nav js-flickity" data-flickity-options='{ "asNavFor": ".gallery-main", "contain": true, "imagesLoaded": true, "pageDots": false, "wrapAround": true}'>
+						<div class="gallery-cell">
+							<img src="assets/empty.png" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery1.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery2.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery3.jpg" alt="">
+						</div>
+						<div class="gallery-cell">	
+							<img src="assets/gallery4.jpg" alt="">
+						</div>
+						<div class="gallery-cell">	
+							<img src="assets/gallery5.jpg" alt="">
+						</div>
+						<div class="gallery-cell">	
+							<img src="assets/gallery6.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery7.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery8.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery9.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery10.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery11.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery12.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery13.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery14.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery15.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery16.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery17.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery18.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery19.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery20.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery21.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery22.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery23.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery24.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery25.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery26.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery27.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery28.jpg" alt="">
+						</div>
+						<div class="gallery-cell">
+							<img src="assets/gallery29.jpg" alt="">
+						</div>
+					</div><!--flickety-->
+					 
+				</div><!--galler-wrapper-->
+			</section><!--gallery-->
+			<footer>
+				<p>&copy; Specially made by James McDermid and Nadia Siu Van.</p>
+			</footer>
+
+
+
+		</section><!-- site-wrapper -->
+	</main>
+	<!-- SCRIPTS
+	==============================================
+	============================================-->
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- jQuery UI -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<!-- flickity -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.0/flickity.pkgd.min.js"></script>
+	<!-- custom scripts -->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
